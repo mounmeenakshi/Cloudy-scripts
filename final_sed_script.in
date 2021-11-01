@@ -13,7 +13,7 @@ radius inner 19.21 outer 22.178
 blackbody, T=150 K , radius 18.852     
 radius inner 19.21 outer 22.178  
 CMB
-table read "shang_incident_sed_blr.txt"
+table read "incident_sed_script_blr.txt"
 luminosity (total) 44.122  //luminosity of transmitted spectrum is 0.3 of the total transmitted value
 radius inner 19.21 outer 22.178 
 sphere
