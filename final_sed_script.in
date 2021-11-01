@@ -1,0 +1,36 @@
+title Solid angle averaged final SED for the RLAGN i.e., by superimposing the 70-percent of the incident and 30-percent of the transmitted luminosity
+AGN T = 4e5 k, a(ox) = -1.28, a(uv)=-0.3, a(x)=-0.85 
+luminosity (total) 44.755 //log erg/s  //luminosity for all the components is 0.7 of their incident values
+radius inner 19.21 outer 22.178
+blackbody, T=986000 K , radius 11.092
+radius inner 19.21 outer 22.178 
+blackbody, T=900 K , radius 17.542
+radius inner 19.21 outer 22.178 
+blackbody, T=300 K , radius 18.142
+radius inner 19.21 outer 22.178  
+blackbody, T=200 K , radius 18.752
+radius inner 19.21 outer 22.178 
+blackbody, T=150 K , radius 18.852     
+radius inner 19.21 outer 22.178  
+CMB
+table read "shang_incident_sed_blr.txt"
+luminosity (total) 44.122  //luminosity of transmitted spectrum is 0.3 of the total transmitted value
+radius inner 19.21 outer 22.178 
+sphere
+dlaw table //log of radial distance (cm) and gas density (cm^-3)
+19.20539926536193 -4.217367380484795
+19.538613944397312 -4.217367380484795
+19.724924368634678 -4.217367380484795
+19.854883906618028 -0.8430152215950938
+19.954778773175548 -0.39291042830834594
+20.035938585205262 -0.4011617821862621
+	: 		:
+	: 		:	
+end of dlaw
+abundances ISM no grains no qheat
+grains ISM function sublimation
+no grain qheat
+stop pfrac -0.3
+set nend 5000
+save overview ".ovr"
+print last
