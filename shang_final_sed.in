@@ -1,4 +1,4 @@
-title Solid angle averaged final SED for the QSO, i.e., 70-percent of the incident and 30-percent of the transmitted luminosity
+title Solid angle averaged final SED for the RLAGN i.e., by superimposing the 70-percent of the incident and 30-percent of the transmitted luminosity
 AGN T = 4e5 k, a(ox) = -1.28, a(uv)=-0.3, a(x)=-0.85 
 luminosity (total) 44.755 //log erg/s  //luminosity for all the components is 0.7 of their incident values
 radius inner 19.21 outer 22.178
