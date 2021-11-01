@@ -1,4 +1,4 @@
-title Incident QSO SED propagated through the BLR
+title Incident RLAGN SED propagated through the BLR
 //This input script is run once to compute the transmitted spectrum of a BLR illuminated by an AGN.
 AGN T = 4e5 k, a(ox) = -1.28, a(uv)=-0.3, a(x)=-0.85
 luminosity (total) 44.91 //log erg/s
