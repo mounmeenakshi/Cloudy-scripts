@@ -17,7 +17,7 @@ table read "incident_sed_script_blr.txt"
 luminosity (total) 44.122  //luminosity of transmitted spectrum is 0.3 of the total transmitted value
 radius inner 19.21 outer 22.178 
 sphere
-dlaw table //log of radial distance (cm) and Hydrogen gas density (cm^-3)
+dlaw table //log of radial distance (cm) and Hydrogen density (cm^-3)
 19.20539926536193 -4.217367380484795
 19.538613944397312 -4.217367380484795
 19.724924368634678 -4.217367380484795
